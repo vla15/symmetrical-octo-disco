@@ -1,0 +1,33 @@
+
+.search-box-container {
+	position: relative;
+	display: inline-block;
+  }
+
+  .search-box-input {
+	  padding: 5px;
+  }
+  
+  .dropdown {
+	position: absolute;
+	border: 1px solid black;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	overflow-wrap: break-word;
+	list-style-type: none;
+  }
+  
+  .dropdown-item {
+	padding: 5px;
+  }
+  .dropdown-item:last-child {
+	border-bottom: 0px;
+  }
+
+  .dropdown-item.active {
+	  background-color: #007bff;
+	  border-top: 1px solid #007bff;
+	  border-bottom: 1px solid #0065d2;
+	  color: white;
+  }
